@@ -1,0 +1,384 @@
+body {
+  background-color: #fff;
+  font-family: 'Cabin';
+  font-size: 22px;
+  position: relative;
+  width: 1080px;
+  height: 600px;
+}
+
+/* INICIO DA CONFIGURAÇÃO DA PÁGINA DE LOGIN */
+
+#absoluto {
+  position: absolute;
+  width: 1080px;
+  height: 720px;
+  left: 0px;
+  top: -4px;
+  background: #FFFFFF;
+  font-family: Cabin;
+}
+
+#texto-login {
+  position: absolute;
+  font-family: Cabin;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 100px;
+  left: 100px;
+}
+
+#texto-bem-vindo {
+  position: absolute;
+  font-family: Cabin;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 85px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 150px;
+  left: 100px;
+  color: #00447b;
+}
+
+#texto-descricao {
+  position: absolute;
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 250px;
+  left: 100px;
+}
+
+#texto-processo {
+  position: absolute;
+  font-family: Cabin;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: left;
+  top: 240px;
+  left: 100px;
+}  
+
+#logo-facens{
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  left: 750px;
+  top: 65px;
+}
+
+#seja-bem-vindo {
+  position: absolute;
+  width: 300px;
+  height: 25px;
+  font-size: 14px;
+  left: 750px;
+  top: 200px;
+  color: #B1B1B1;
+  border-radius: 20px;
+} 
+
+#caixa-email {
+  position: absolute;
+  width: 275px;
+  height: 25px;
+  left: 750px;
+  top: 240px;
+  color: #B1B1B1;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid #B1B1B1;
+  border-radius: 15px;
+} 
+
+#caixa-senha {
+  position: absolute;
+  width: 275px;
+  height: 25px;
+  left: 750px;
+  top: 290px;   
+  border: 1px solid #B1B1B1;
+  border-radius: 15px;
+  color: #B1B1B1;
+  padding: 5px;
+  margin: 2px;
+  text-align: left;
+} 
+
+#caixa-acessar {
+  position: absolute;
+  width: 289px;
+  height: 39px;
+  left: 750px;
+  top: 340px;   
+  border: none;
+  border-radius: 15px;
+  background: #00447B;
+  margin: 2px;  
+}
+
+#absoluto a:link, a:visited{
+  text-decoration: none; 
+  color: #fff;
+}   
+      
+/* FIM DA CONFIGURAÇÃO DA PÁGINA DE LOGIN */
+
+/* INICIO DA CONFIGURAÇÃO DA PÁGINA DE MENU */
+
+#icone-facens {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 1200px;
+}
+
+#caixa-menu {
+  position: absolute;
+  width: 1080px;
+  height: 700px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.linha {
+  position: absolute;
+  left: 237px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: #b1b1b1;
+  transform: translateX(-50%);
+} 
+
+ul#navegacao-vertical{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  position: absolute;
+  width: 110px;
+  height: 127px;
+  left: 17px;
+  top: 13px;
+  display: inline-block;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+
+  color: #000;
+} 
+
+#icone-home {
+  position: absolute;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  left: 40px;
+  top: 23px;
+}
+
+#certificado {
+  position: absolute;
+  width: 110px;
+  height: 127px;
+  left: 17px;
+  top: 73px;
+  display: inline-block;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+
+  color: #000;
+}
+
+#icone-certificado {
+  position: absolute;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  left: 40px;
+  top: 23px;
+}
+
+#conta {
+  position: absolute;
+  width: 110px;
+  height: 127px;
+  left: 17px;
+  top: 133px;
+  display: inline-block;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+
+  color: #000000;
+}
+
+#icone-conta {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 40px;
+  top: 23px;
+}
+
+#sobre-nos {
+  position: absolute;
+  width: 110px;
+  height: 127px;
+  left: 17px;
+  top: 193px;
+  display: inline-block;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+
+  color: #000000;
+}
+
+#icone-sobre {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 40px;
+  top: 23px;
+}
+
+#sair {
+  position: absolute;
+  width: 65.39px;
+  height: 39px;
+  left: 17px;
+  top: 563px;
+  display: inline-block;
+
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 39px;
+
+  color: #000000;
+}
+
+#icone-sair {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 40px;
+  top: 23px;
+}
+
+#texto-menu {
+  position: absolute;
+  width: 500px;
+  height: 220px;
+  font-family: Cabin;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#texto-menu2 {
+  position: absolute;
+  font-family: Cabin;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  top: 50%;
+  left: 51.5%;
+  transform: translate(-50%, -50%);  
+}
+
+#direitos {
+  position: absolute;
+  width: 500px;
+  height: 220px;
+  font-family: Cabin;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  top: 95%;
+  left: 40%;
+}
+
+span {
+  color: #00447b;
+}
+
+li {
+  padding: 5px 20px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  width: 200px;
+  height: 60px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  text-indent: 60px;
+  line-height: 60px;
+  border-radius: 15px;
+}
+
+a:hover {
+  background-position: right bottom;
+  background-color: #adadad;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#home #navegacao-vertical a,
+#certificado #navegacao-vertical .certificado a,
+#conta #navegacao-vertical .conta a,
+#sobre-nos #navegacao-vertical .sobre-nos a,
+#sair #navegacao-vertical .sair a {
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #000;
+}
+
