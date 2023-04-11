@@ -12,7 +12,7 @@
         <div>
         <ul id="navegacao-vertical">
           <li id="home">   
-            <a href="home.html">Home
+            <a href="menu.html">Home
             <img id="icone-home" src="imagens/icone-casa.png">
             </a>
           </li>
@@ -38,8 +38,87 @@
           </li>
       </ul>
       </div>
+
+      <div>
+        <img id="icone-facens" src="imagens/icone-facens.png">
+      </div>
+
+    <div>
+      
+      <div>
+
+        <div>
+          <p id="texto-certificado"> DADOS DO CERTIFICADO ENVIADO PELO <span>ALUNO</span> </p>
+        </div>
+
+        <form id="certificado">
+            <label id="texto">Nome do aluno:</label>
+            <input type="text" id="nome" name="nome_do_aluno" value="">        
+          <br>
+          <label id="texto">RA do aluno:</label>
+            <input type="text" id="ra" name="ra_do_aluno" value="">        
+          <br>
+            <label id="texto">Curso do aluno:</label>
+            <input type="text" id="curso" name="curso_do_aluno" value="">
+          <br>
+            <label id="texto">Qual semestre o aluno está cursando?
+              <select id="semestre" name="semestre_do_aluno">
+                <option value="">Selecione o semestre do aluno</option>
+                <option value="1">1º semestre</option>
+                <option value="2">2º semestre</option>
+                <option value="3">3º semestre</option>
+                <option value="4">4º semestre</option>
+                <option value="5">5º semestre</option>
+                <option value="6">6º semestre</option>
+                <option value="7">7º semestre</option>
+                <option value="8">8º semestre</option>
+                <option value="9">9º semestre</option>
+                <option value="10">10º semestre</option>
+              </select>
+          <br>     
+            <label id="texto">Curso no certificado:</label>
+            <input type="text" id="curso" name="curso_no_certificado" value="">
+          <br>  
+            <label id="texto">Instituição emissora do certificado:</label>
+            <input type="text" id="instituicao" name="instituicao_emissora" value="">
+          <br>  
+            <label id="texto">Código do certificado:</label>
+            <input type="text" id="codigo" name="codigo-certificado" value="">
+          <br>  
+           <!-- <label id="texto">Anexe o PDF do certificado:</label>
+            <input type="file" id="pdf" class="pdf" name="pdf-certificado"> -->
+            <label id="texto">Anexe o PDF do certificado:</label>
+            <label for="arquivo" onclick="document.getElementById('arquivo').click()">Selecione um arquivo</label>
+            <input type="file" id="arquivo" name="arquivo">
+
+          <div><button type="submit" id="caixa-redefinir">REDEFINIR DADOS</div>
+          <div><button type="submit" id="caixa-concluir">CONCLUIR</div>
+        </form>
+      </div>
+
+    </div>  
+
       <div class="linha"></div>
-    </div>
+
+    <div> <p id="direitos">Todos os direitos reservados</p> </div>
 
   </body>  
+
+  <script type="text/javascript">
+    const form = document.getElementById('certificado');
+    const nomeDado = document.getElementById('nome-dado');
+    const emailDado = document.getElementById('email-dado');
+    const mensagemDado = document.getElementById('mensagem-dado');
+    const botaoConcluir = document.getElementById('botao-concluir');
+
+    botaoConcluir.addEventListener('click', function() {
+    const nome = form.elements.nome.value;
+    const email = form.elements.email.value;
+    const mensagem = form.elements.mensagem.value;
+      
+    nomeDado.textContent = 'Nome: ' + nome;
+    emailDado.textContent = 'E-mail: ' + email;
+    mensagemDado.textContent = 'Mensagem: ' + mensagem;
+    });
+  </script>
 </html>  
